@@ -1,4 +1,6 @@
 import { roboto, robotoSlab } from "@/lib/fonts";
+import LoginButton from "@/components/login-button";
+import SignupButton from "@/components/signup-button";
 
 export default function Home() {
   return (
@@ -22,8 +24,12 @@ export default function Home() {
         {/* placeholder for image or showcase */}
         <div className="md:h-64 h-32 bg-gray-200 w-auto"></div>
       </div>
-      <div className="">
-        <p className={`${roboto.className} px-4`}>Let's get started.</p>
+      <div className="flex flex-col gap-2">
+        <p className={`${roboto.className} md:text-xl text-lg`}>Let's get started.</p>
+        <div className="flex flex-row md:gap-4 gap-2">
+          <LoginButton />
+          <SignupButton />
+        </div>
       </div>
     </main>
   );
