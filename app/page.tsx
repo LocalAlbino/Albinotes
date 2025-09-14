@@ -17,7 +17,7 @@ export default function Home() {
         <p
           className={`${roboto.className} text-md md:text-xl p-4 bg-gray-100 w-auto`}
         >
-          The world's most{" "}
+          The world&apos;s most{" "}
           <strong className={robotoSlab.className}>generic</strong> note-taking
           app.
         </p>
@@ -25,7 +25,7 @@ export default function Home() {
         <div className="md:h-64 h-32 bg-gray-200 w-auto"></div>
       </div>
       <div className="flex flex-col gap-2">
-        <p className={`${roboto.className} md:text-xl text-lg`}>Let's get started.</p>
+        <p className={`${roboto.className} md:text-xl text-lg`}>Let&apos;s get started.</p>
         <div className="flex flex-row md:gap-4 gap-2">
           <LoginButton />
           <SignupButton />
