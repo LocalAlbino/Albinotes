@@ -8,7 +8,7 @@ export default function Home() {
       <div className="bg-green-500 w-auto px-4 pb-4 pt-2">
         {/* logo here eventually maybe */}
         <strong
-          className={`${robotoSlab.className} text-white text-2xl md:text-4xl`}
+          className={`${robotoSlab.className} select-none text-white text-2xl md:text-4xl`}
         >
           Albinotes.
         </strong>
